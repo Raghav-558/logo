@@ -100,7 +100,16 @@ section {
 
 }
 
-@media (min-width:1200px) {
+@media (min-width:768px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+@media (min-width:992px) {
     .col-xl-3 {
         width: 25%;
         padding-left: 12px;
